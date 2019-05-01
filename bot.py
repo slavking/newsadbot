@@ -40,7 +40,7 @@ tbot = telebot.TeleBot(config.token)
 nsfw = False
 
 tripmap = {}
-for l in open('/home/ph/livechan-js/public/js/chat.js'):
+for l in open('chat.js'):
     if l.startswith('flags_hover_strings'):
         tripmap[l.split('"')[1]] = l.split('"')[3]
 
