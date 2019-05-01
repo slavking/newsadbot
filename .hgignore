@@ -1,0 +1,12 @@
+syntax: glob
+*.pyc
+*.jpg
+*.mp4
+*.png
+*.webp
+*.ogg
+ids
+members
+*.jpg
+*.gif
+*.jpg-large
